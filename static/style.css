@@ -1,0 +1,1066 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    overflow-x: hidden;
+}
+.phone{
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    background-color: #343a40;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.brend1{
+    position: relative;
+    left: -280px;
+}
+.icons a{
+    margin-left: 15px;
+    color: #33c2be;
+}
+.brend p{
+    font-weight: 600;
+    color: #fff;
+}
+.brend p span{
+    font-weight: normal;
+    color: #33c2be;
+}
+.brend1 p{
+    font-weight: 600;
+    color: #fff;
+}
+.brend1 p span{
+    font-weight: normal;
+    color: #33c2be;
+}
+#nav{
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    position: relative;
+    background-image: url(	https://preview.colorlib.com/theme/create/images/hero_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+}
+.navigation ul{
+    display: flex;
+    flex-direction: row;
+}
+.navigation ul li{
+    list-style-type: none;
+    position: relative;
+    left: 40px;
+}
+.navigation ul li a{
+    letter-spacing: 1.1px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+    margin-left: 40px;
+    transition: all 0.5s;
+}
+.navigation ul li a:hover{
+    color: #33c2be;
+    cursor: pointer;
+}
+.logo{
+    color: #000;
+    font-size: 32px;
+    position: relative;
+    left: -50px;
+}
+.logo span{
+    color: #33c2be;
+}
+
+.asosiy{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    top: 250px;
+}
+.asosiy h1{
+    font-size: 3rem;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.asosiy p{
+    margin-top: -10px;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.asosiy button{
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    border-radius: 30px;
+    background-color: #32dbc6;
+    border: 1px solid #32dbc6;
+    cursor: pointer;
+    font-weight: lighter;
+}
+.asosiy button:hover{
+    cursor: pointer;
+    color: white;
+    filter: brightness(0.9);
+}
+
+#section{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    top: 0;
+}
+.block{
+    position: relative;
+    top: 0;
+    width: 29%;
+    float: left;
+    margin: 20px;
+    padding: 15px;
+}
+.block h2{
+    padding-bottom: 20px;
+    color: #32dbc6;
+    font-size: 32px;
+    font-weight: normal;
+}
+.block p{
+    padding-bottom: 20px;
+    line-height: 28px;
+    font-size: 19px;
+}
+.block ul li{
+    padding-bottom: 15px;
+    padding-left: 5px;
+    list-style-type: none;
+}
+.block ul li a{
+    color: #32dbc6;
+}
+#section2{
+    position: relative;
+    top: -100px;
+    width: 100%;
+    height: 150vh;
+}
+.our h2{
+    font-size: 3rem;
+    color: #000;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: normal;
+    text-align: center;
+}
+.our p{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+.images{
+    position: relative;
+    left: 40px;
+    width: 29%;
+    margin: 15px;
+    float: left;
+    overflow: hidden;
+}
+.image_hover{
+    color: #00000000;
+    transform: translateY(10px);
+    transition: transform 1s;
+}
+
+.images:hover .image_hover{
+    /* display: block; */
+    color: #fff;
+    transform: translateY(-10px);
+}
+.images:hover .image_hover h4, p{
+    transform: translateY(10px);
+}
+.images img{
+    width: 100%;
+    transition: all 1s;
+}
+.images:hover img{
+    filter: brightness(0.3);
+    transform: scale(1.1);
+}
+.images h4{
+    display: block;
+    position: relative;
+    top: -250px;
+    left: 110px;
+    font-size: 30px;
+}
+.images p{
+    position: relative;
+    top: -250px;
+    left: 120px;
+    font-size: 20px;
+}
+#strategy{
+    width: 100%;
+    height: 100vh;
+    /* background-color: lightgreen; */
+}
+.items_all{
+    width: 40%;
+    padding: 20px;
+}
+.items_all img{
+    width: 100%;
+}
+.items_1{
+    width: 40%;
+    height: 470px;
+    padding: 20px;
+}
+.umumiy{
+    width: 90%;
+    background-color: black;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.item{
+    width: 45%;
+    float: left;
+    padding: 20px 10px;
+    margin: 10px;
+}
+.item p{
+    color: #fff;
+}
+.item h3{
+    color: #fff;
+}
+.item h3 a{
+    color: #fff;
+}
+.item a{
+    color: #fff;
+}
+.qism{
+    text-align: center;
+}
+.test{
+    font-size: 50px;
+    font-weight: normal;
+
+}
+.per{
+    font-size: 22px;
+}
+.qatnash{
+ 
+   width: 5%;
+    border-radius: 100px;
+    text-align: center;
+    position: relative;
+    top: 20px;    
+}
+.icon45{
+    margin: 35px;
+    font-size: 1px;
+    gap: 10px;
+}
+.icon45 a i{
+    margin-left: 10px;
+    font-size: 15px;
+}
+.Our{
+    /* margin: 150px; */
+    text-align: center;
+    font-size: 35px;
+
+}
+.wit{
+    text-align: left;
+    /* border: 1px solid black; */
+    width: 27%;
+    float: left;
+    margin: 40px;
+    padding: 10px;
+}
+.fa-solid {
+    font-size: 12px;
+}
+.wit h3{
+    font-size: 22px;
+    padding-left: 30px;
+}
+.wit p{
+    padding-left: 30px;
+}
+.wit a i{
+    font-size: 35px;
+
+}
+.learn{
+    padding-left: 30px;
+    color: #33c2be;
+    text-decoration:none ;
+}
+.qism{
+    position: relative;
+
+}
+.gap{
+    padding-right: 800px;
+    font-size: 100px;
+
+}
+ .qis1{
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+.dag{
+    font-size: 48px;
+    font-weight: normal;
+    text-align: justify;
+    margin-left: 80px;
+}
+.gap p{
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: justify;
+    margin-left: 80px;
+}
+.wit202{
+    position: relative;
+    left: 80px;
+    top: 130px;
+    float: left;
+}
+.fa-solid{
+    font-size: 50px;
+    color: gray;
+}
+.wit101{
+    position: relative;
+    right: 400px;
+    top: -100px;
+    width: 27%;
+    height: 58vh;
+    float: right;
+}
+.wit101 img{
+    width: 100%;
+}
+.wit97{
+    margin-top:600px;
+    margin: 600px;
+    font-size: 60px;
+    font-weight: normal;
+    
+}
+.wit30 img{
+  padding: 10px;
+  width: 11%;
+  height: 170px; 
+  border-radius: 100%; 
+  top: -490px;
+  position: relative;
+  margin: 250px;
+  float: left;
+  align-items: center;
+  left: 40px;
+  top: -790px; 
+}
+.wit98 h2{
+    position: relative;
+    top:-350px;
+    margin: 35px;
+    left: -357px;
+    font-size: 23px;
+    font-weight: normal;
+}
+.wit28 img{
+    border-radius: 100%;
+    width: 11%;
+    height: 160px; 
+    border-radius: 100%; 
+    top: -760px;
+    position: relative;
+    margin: 170px;  
+    left: -190px;
+}
+.wit99 h2{
+    position: relative;
+    top:-413px;
+    left: -498px;
+    font-weight: normal;
+    font-size: 22.5px;
+
+}
+.wit29 img{
+    position: relative;
+    border-radius: 100%;
+    width: 11%;
+    height: 170px; 
+    border-radius: 100%; 
+    top: -690px;
+    margin: 70px;
+    left: -190px;
+} 
+.wit100 h2{
+    position: relative;
+    top: -750px;
+    left: -130px;
+    font-weight: normal;
+    font-size:22.5px ;
+}
+.wit151 p{
+    position: relative;
+    top: -735px;
+    left: -865px;
+    font-size: 12px;
+    color: grey;
+} 
+.wit152 p{
+    position: relative;
+    top:-750px;
+    left: -500px;
+    font-size: 12px;
+    color: grey;
+
+}
+.wit153 p{
+    position: relative;
+    top:-770px;
+    left:-85px ;
+    font-size:12.5px ;
+    color: grey;
+}
+.mb-4 p {
+    position: relative;
+    font-size: 17px;
+    margin-top: -750px;
+    left:250px;
+}
+.mb-5 p{
+    position: relative;
+    margin-top: -166px;
+    left: 635px;
+    font-size:17px;
+}
+.mb-6 p{
+    position: relative;
+    margin-top:-163px ;
+    left: 1010px;
+    font-size: 17px;
+}
+.mb-5 a i{
+    position: relative;
+    left: 700px;
+    top: 21px;
+    font-size: 26px;
+    margin: 4px;
+}
+.mb-4 a i{
+    position: relative;
+    left: 300px;
+    top: 21px;
+    font-size: 26px;
+    margin: 4px;
+}
+.mb-6 a i{
+    position: relative;
+    left: 1080px;
+    top: 15px;
+    font-size: 26px;
+    margin: 4px;
+}
+.wit87 h1{
+    position: relative;
+    top:120px;
+    font-size: 50px;
+    font-weight: normal;
+}
+.main20 img{
+    position:relative;
+    top:-300px;
+    left:-555px;
+    border-radius: 1%;
+    width: 360px;
+    height: 400px;
+}
+.main21 img{
+    position:relative;
+    top:-840px;
+    left:495px;
+    border-radius: 1%;
+    width: 360px;
+    height: 400px;
+}
+.main22 img{
+    position:relative;
+    top:-840px;
+    left:380px;
+    border-radius:1% ;
+    width: 360px;
+    height: 400px;
+}
+.wit12 h1{
+    position:relative;
+    top: 330px;
+    left: -980px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #33c2be;
+}
+.wit12  :hover{
+    position: relative;
+    color:#343a40;
+}
+.wit13 h1{
+    position:relative;
+    top: 265px;
+    left: -600px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #33c2be;
+}
+.wit13  :hover{
+    position: relative;
+    color:#343a40;
+}
+.wit14 h1{
+    position:relative;
+    top: 203px;
+    left: -210px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #33c2be;
+}
+.wit14  :hover{
+    position: relative;
+    color:#343a40;
+}
+.hr18 p{
+    position: relative;
+    top: 218px;
+    left:-975px
+}
+.hr19 p{
+    position: relative;
+    top: 200px;
+    left:-590px
+}
+.hr20 p{
+    position: relative;
+    top: 181px;
+    left:-205px
+}
+.hr550 p{
+    position: relative;
+    top:150px;
+    left:-783px;
+    color:#33c2be ;
+}
+.hr550 p:hover{
+    position: relative;
+    color: aqua;
+}
+.hr551 p{
+    position: relative;
+    top:137px;
+    left:-13px;
+    color:#33c2be ;
+}
+.hr551 p:hover{
+    position: relative;
+    color: aqua;
+}
+.hr552 p{
+    position: relative;
+    top:112px;
+    left:-398px;
+    color:#33c2be ;
+}
+.hr552 p:hover{
+    position: relative;
+    color: aqua;
+}
+.br18 p{
+    position: relative;
+    top:130px;
+    left: -980px;
+}
+.br19 p{
+    position: relative;
+    top:45px;
+    left: -200px;
+    font-size: 16px;
+}
+.br20 p{
+    position: relative;
+    top:-42px;
+    left: -590px;
+}
+.br200 p{
+    position: relative;
+    top: -20px;
+    left: -980px;
+    color: #33c2be;
+    font-size: 19px;
+}
+.br200  :hover{
+    position: relative;
+    color: aquamarine;
+    cursor: pointer;
+    
+}
+.br201 p{
+    position: relative;
+    top: -40px;
+    left: -200px;
+    color: #33c2be;
+    font-size: 19px;
+}
+.br201  :hover{
+    position: relative;
+    color: aquamarine;
+    cursor: pointer;
+}
+.br202 p{
+    position: relative;
+    top: -68px;
+    left: -580px;
+    color: #33c2be;
+    font-size: 19px;
+}
+.br202 :hover{
+    position: relative;
+    color: aquamarine;
+    cursor: pointer;
+}
+#forma{
+    width: 100%;
+    height: 150vh;
+    margin-top: 55px;
+    background-color: rgb(252, 249, 249);
+}
+#email{
+    position: relative;
+    left: 45px;
+    width: 50%;
+    height:100%;
+}
+.web-site{
+    width: 50%;
+}
+form{
+    float: left;
+    position: relative;
+    top: 250px;
+    left: -750px;
+}
+input {
+    margin: 5px;
+    padding: 5px;
+    height: 25px;
+    cursor: pointer;
+}
+.ism {
+    float: left;
+}
+.submit {
+    margin: 20px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    background-color: cadetblue;
+    cursor: pointer;
+    color: white;
+}
+#email {
+    width: 420px;
+    margin-left: -10%;
+}
+label text {
+    text-align: left;
+}
+h2 {
+    color:cadetblue;
+}
+#forma h2{
+    position: relative;
+    left:-400px;
+    top: 70px;
+    font-size: 50px;
+    color: #000;
+    font-weight: normal;
+}
+#first {
+    border-radius: 25px;
+    width: 202px;
+    height: 44px;
+    font-size: 20px;
+    margin-top: 10px;
+    border: 1.6px solid aquamarine;
+}
+#last{
+    border-radius: 25px;
+    width: 202px;
+    height: 44px;
+    margin-top: 10px;
+    font-size: 20px;
+    border: 1.6px solid aquamarine;
+}
+#email{
+    border-radius: 25px;
+    height: 44px;
+    margin-top: 10px;
+    font-size: 20px;
+    border: 1.6px solid aquamarine;
+}
+#Subject{
+    border-radius: 25px;
+    width:415px;
+    height: 44px;
+    margin-top: 10px;
+    font-size: 20px;
+    border: 1.6px solid aquamarine;
+}
+#text{
+    border-radius: 25px;
+    font-size: 20px;
+    margin-top: 10px;
+    border: 1.6px solid aquamarine;
+    width: 415px;
+    height: 200px;
+}
+#text{
+    top:-1005px;
+}
+.wit10 p{
+    position:relative;
+    top:-60px;
+    left: 1px;
+    font-size: 25px;
+}
+.wit1000 button{
+    width: 160px;
+    height: 50px;
+    background-color: #32dbc6;
+    color:#fff;
+    margin-top:15px ;
+    font-size: 17px;
+    border: 2px solid  #32dbc6;
+}
+.wit1000 :hover {
+    background-color: rgb(8, 199, 199);
+}
+.main1000{
+    width: 25%;
+    height: 50vh;
+    background-color: #ffffff;
+}
+#forma10 p{
+    position: relative;
+    margin-left:820px; 
+    top: -870px;
+    font-size: 18px;
+ }
+ #forma11 p{
+    position: relative;
+    top:-865px;
+    left: 820px;
+ }
+ #forma12 p{
+    position: relative;
+    margin-left:820px; 
+    top: -842px;
+    font-size: 18px;
+ }
+ #forma13 p{
+    position: relative;
+    top:-836px;
+    left: 820px;
+    color:#32dbc6;
+    cursor: pointer;
+ } 
+ #forma14 p{
+    position: relative;
+    margin-left:820px; 
+    top: -822px;
+    font-size: 18px;
+ }
+ #forma15 p{
+    position: relative;
+    top:-818px;
+    left: 820px;
+    color:#32dbc6;
+    cursor: pointer;
+ } 
+ .form100 h1{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: #00bca6; 
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: normal; 
+    padding-top: 45px;
+    top:-198px;
+ }
+.footer_qism{
+    background-color: #111;
+    position: relative;
+    left: 82px;
+    top: 80px;
+    width: 27%;
+    float: left;
+    margin-left: 15px;
+    padding: 5px;
+}
+.footer_qism h3{
+    font-size: 20px;
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: normal;
+    color: #000;
+    padding-bottom: 20px;
+}
+.footer_qism p{
+    font-size: 16px;
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: #000;
+    padding-bottom: 15px;
+}
+.footer_qism1{
+    position: relative;
+    left: 82px;
+    top: 80px;
+    width: 13%;
+    float: left;
+    margin-left: 35px;
+    padding: 5px;
+}
+.footer_qism1 h3{
+    font-size: 20px;
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: normal;
+    color: white;
+    padding-bottom: 20px;
+}
+.footer_qism1 ul{
+    display: block;
+}
+.footer_qism1 ul li{
+    list-style-type: none;
+}
+.footer_qism1 ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #FFFFFF80;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 1px;
+    transition: all 0.5s;
+}
+.footer_qism1 ul li a:hover{
+    color: white;
+}
+.footer_qism2{
+    position: relative;
+    left: 82px;
+    top: 80px;
+    width: 13%;
+    float: left;
+    margin-left: 100px;
+    padding: 5px;
+}
+.footer_qism2 h3{
+    font-size: 20px;
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: normal;
+    color: white;
+    padding-bottom: 20px;
+}
+.footer_qism2 ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #FFFFFF80;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.footer_qism2 ul li a:hover{
+    color: white;
+}
+.footer_qism2 ul{
+    display: block;
+}
+.footer_qism2 ul li{
+    list-style-type: none;
+}
+.footer_qism3{
+    position: relative;
+    left: 82px;
+    top: 80px;
+    width: 13%;
+    float: left;
+    margin-left: 100px;
+    padding: 5px;
+}
+.footer_qism3 h3{
+    font-size: 20px;
+    text-align: center;
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: normal;
+    color: white;
+    padding-bottom: 20px;
+}
+.footer_qism3 a{
+    color: #FFFFFF80;
+    font-style: 17px;
+    margin-left: 18px;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+.footer_qism3 a:hover{
+    color: white;
+}
+.copyright{
+    position: absolute;
+    left: 24%;
+    top: 450px;
+}
+.copyright p{
+    font-size: 17px;
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #FFFFFF80;
+}
+.copyright p span{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: rgb(146, 135, 135);
+    cursor: pointer;
+    transition: all 1s;
+}
+.copyright p span:hover{
+    color: white;
+    text-shadow: 7px 7px 12px black;
+}
+ #footer_qism{
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+ }
+.futer_1{
+    background-color: #32dbc6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 42%;
+}
+.futer_1 h1{
+    color: white;
+    font-size: 2rem;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: normal;
+}
+.futer_2{
+    padding-top: 100px;
+}
+.futer0{
+    width: 19%;
+    /* border: 1px solid white; */
+    float: left;
+    margin: 40px;
+    padding: 10px;
+    height: 300px;
+    
+}
+.futer0 h4{
+    padding-bottom: 30px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: normal;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.futer0 p{
+    color: #737373;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.1px;
+}
+.futer0 .para2{
+    color: #737373;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 1.1px;
+}
+.futer0 a{
+    position: relative;
+    padding-left: 30px;
+    font-size: 20px;
+    left: -22px;
+    color: #737373;
+}
+.futer0 a :hover{
+    color: white;
+}
+.email{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    position: relative;
+    left: -100px;
+    width: 250px;
+    height: 40px;
+    outline: none;
+    background-color: #333;
+    border: 1px solid grey;
+}
+.button_f{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 70px;
+    height: 40px;
+    position: relative;
+    bottom: 45px;
+    left: 155px;
+    background-color: aqua;
+}

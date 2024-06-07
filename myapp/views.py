@@ -6,4 +6,4 @@ from django.http import HttpResponse
 
 
 def hello_word(request):
-    return HttpResponse("<h1>Assalomu aleykum Norbek</h1>")
+    return render(request=request,template_name="index.html")
